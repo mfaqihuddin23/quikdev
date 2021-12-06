@@ -68,6 +68,133 @@ section.howitworks {
 .howitworks iframe{
   border-radius: 20px;
 }
+
+/* section news */
+section.news {
+  padding: 120px 0px;
+}
+section.news .row{
+  margin-bottom: 40px;
+}
+.item-news{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 10px 10px 20px;
+}
+.item-txt{
+  padding: 0px 10px;
+}
+
+/* section economics */
+section.economics {
+  padding: 20px 0px 180px;
+}
+section.economics .row{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+section.economics h4{
+  margin-top: 30px;
+}
+.presentation{
+  background: #EEF3F8;
+  border-radius: 20px;
+  padding: 60px 0px;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+/* section subscribe */
+section.subscribe .container{
+  background: url('../images/bg-subs.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 80px 0px 100px;
+  margin-bottom: 180px;
+}
+.subscribe .subs-input {
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.subscribe .form-control {
+  max-width: 485px;
+  margin-right: 20px;
+}
+.contact-subs{
+  justify-content: center;
+}
+
+/* section roadmap */
+section.roadmap .container{
+  margin-bottom: 180px;
+}
+section.roadmap h2{
+  margin-bottom: 80px;
+}
+
+/* section quiktoken  */
+section.quik-token{
+  background: url('../images/bg-uses.png');
+  padding: 80px 0px 120px;
+}
+section.quik-token h4{
+  color: #FFFFFF;
+}
+section.quik-token h5{
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.item-uses{
+  background: #FFFFFF;
+  border-radius: 20px;
+  padding: 0px 36px 36px;
+  align-items: center;
+}
+.circle-number{
+  background: linear-gradient(256.03deg, #5FABE3 -4.5%, #4988B6 112.94%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: 48px;
+}
+
+/* section FAQ-sect */
+section.faq-sect {
+  padding: 180px 0px;
+}
+section.faq-sect h2{
+  margin-bottom: 60px;
+}
+
+/* section launch-listing  */
+.item-launch {
+  background: #EEF3F8;
+  border-radius: 20px;
+  padding: 50px 30px;
+}
+.launch-listing .form-control{
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+/* section our-team */
+section.our-team {
+  padding: 180px 0px 120px;
+}
+.our-team h2 {
+  margin-bottom: 80px;
+}
+.team-row{
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+
+
 /* global  */
 /* header  */
 h1{
@@ -88,8 +215,42 @@ h2{
   margin-bottom: 40px;
   color: #1F3247;
 }
+h4{
+  font-family: 'EudoxusSans-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 160%;
+  color: #1F3247;
+}
+h5{
+  font-family: 'EudoxusSans-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1F3247;
+}
+h6{
+  font-family: 'EudoxusSans-Bold';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 180%;
+  color: #1F3247;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 /* body  */
+p{
+  font-family: 'EudoxusSans-Regular';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+color: #717C89;
+}
 .p-24{
   font-family: 'EudoxusSans-Regular';
   font-style: normal;
@@ -128,6 +289,14 @@ h2{
   border-radius: 10px;
   border: none;
   padding: 20px 40px;
+}
+.btn-subscribe{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.2) 100%);
+  border: 1.5px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #1F3247;
+  margin-right: 20px;
 }
 .btn{
   font-family: 'EudoxusSans-Bold';
